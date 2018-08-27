@@ -1,0 +1,37 @@
+h1{
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+body{
+    background: url("https://images.unsplash.com/photo-1521064243942-224549f23d65?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d42aa5f406790d133d6151f72d50c3a2&auto=format&fit=crop&w=1650&q=80");
+    background-size: cover;
+    font-family: Play;
+    height: 1000px;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+label{
+    color: white;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+input{
+    padding: 5px;
+}
+
+.wrapper{
+    text-align: center;
+    margin-top: 20px;
+    display: grid;
+    position: relative;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    padding: 20px;
+}
